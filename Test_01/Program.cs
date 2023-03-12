@@ -25,4 +25,6 @@ for (int i = 0, j=0; i < strings.Length; i++)
         j++;
     }
 }
+Console.WriteLine("Строки длина, которых меньше или равна 3");
+for (int i = 0; i < shortsStrings.Length; i++) Console.WriteLine($"{shortsStrings[i]}\t");
 
