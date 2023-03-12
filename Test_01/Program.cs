@@ -16,6 +16,13 @@ for (int i = 0; i < strings.Length; i++)
 {
     if (strings[i].Length<=3) count++;
 }
-
-
+string [] shortsStrings = new string [count];
+for (int i = 0, j=0; i < strings.Length; i++)
+{
+    if (strings[i].Length<=3) 
+    {
+        shortsStrings[j]=strings[i];
+        j++;
+    }
+}
 
