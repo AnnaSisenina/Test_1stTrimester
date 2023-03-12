@@ -11,5 +11,11 @@ Console.WriteLine("Введите строки через 'Enter'");
 for (int i = 0; i < strings.Length; i++)
     strings[i] = Console.ReadLine()!;
 
+int count=0;
+for (int i = 0; i < strings.Length; i++)
+{
+    if (strings[i].Length<=3) count++;
+}
+
 
 
